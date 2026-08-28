@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "files": [
     "lib",
+    "lib/widget.js",
     "assets",
     "cordis.patch.yml"
   ],
