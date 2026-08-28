@@ -1,0 +1,28 @@
+{
+  "name": "dsh-balance-phoebe",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "鸣潮菲比余额挂件 - DSH 插件",
+  "main": "src/index.ts",
+  "files": ["src", "cordis.patch.yml", "assets"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepare": "npm run build"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "^1.0.0",
+    "@deepseek-ai/schemastery": "^1.0.0",
+    "@deepseek-ai/dsh-tools": "^1.0.0"
+  }
+}

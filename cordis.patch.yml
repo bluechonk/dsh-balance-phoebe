@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh_balance_phoebe
+      name: dsh-balance-phoebe
+      config:
+        apiBaseUrl: 'http://127.0.0.1:3080'
+        refreshInterval: 30
