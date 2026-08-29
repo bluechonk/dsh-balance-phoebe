@@ -1,6 +1,6 @@
 {
     "name":  "@BlueChonk/dsh-balance-phoebe",
-    "version":  "0.1.0",
+    "version": "0.1.1",
     "type":  "module",
     "description":  "楦ｆ疆鑿叉瘮浣欓鎸備欢 - DSH 鎻掍欢",
     "main":  "lib/index.js",
