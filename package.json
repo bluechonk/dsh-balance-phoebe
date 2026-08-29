@@ -1,19 +1,19 @@
-{
-  "name": "@BlueChonk/dsh-balance-phoebe",
-  "version": "0.1.0",
-  "type": "module",
-  "description": "鸣潮菲比余额挂件 - DSH 插件",
-  "main": "lib/index.js",
-  "files": [
-    "lib",
-    "lib/widget.js",
-    "assets",
-    "cordis.patch.yml"
-  ],
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    }
-  },
-  "license": "MIT"
+﻿{
+    "name":  "@BlueChonk/dsh-balance-phoebe",
+    "version":  "0.1.0",
+    "type":  "module",
+    "description":  "楦ｆ疆鑿叉瘮浣欓鎸備欢 - DSH 鎻掍欢",
+    "main":  "lib/index.js",
+    "files":  [
+                  "lib",
+                  "lib/widget.js",
+                  "assets",
+                  "cordis.patch.yml"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "license":  "MIT"
 }
