@@ -2,6 +2,8 @@
 
 个人自用鸣潮菲比查 longcat 剩余 token 挂件，灵感来自 [dsh-whale-widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)。
 
+<div align="center"><img src="assets/image/doc_01.jpg" alt="预览图" width="400"></div>
+
 ---
 
 ## 图片获取全流程
@@ -51,7 +53,8 @@ dsh web
 5. 点击该请求，在 `Headers` 标签页中找到 `Cookie` 字段
 6. 从 Cookie 中复制 `passport_token_key` 的值
 
-![LongCat Token 获取示意图](assets/image/doc_01.jpg)
+![LongCat Token 获取示意图](assets/image/doc_02.jpg)
+
 
 #### 配置方法：
 
