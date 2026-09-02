@@ -36,6 +36,37 @@ dsh web
 
 ---
 
+## 配置指南
+
+### LongCat Token 获取
+
+本插件需要 LongCat 的 `LONGCAT_PASSPORT_TOKEN_KEY` 参数来获取余额信息。
+
+#### 获取步骤：
+
+1. 访问 https://longcat.chat/platform/usage 并登录
+2. 按 `F12` 打开浏览器开发者工具
+3. 在开发者工具中切换到 `Network`（网络）标签页
+4. 刷新页面，找到 `https://longcat.chat/api/pay/quota/metering/token-packs/summary` 请求
+5. 点击该请求，在 `Headers` 标签页中找到 `Cookie` 字段
+6. 从 Cookie 中复制 `passport_token_key` 的值
+
+![LongCat Token 获取示意图](assets/image/doc_01.jpg)
+
+#### 配置方法：
+
+将获取到的 `passport_token_key` 填写到 `.dsh/.credentials.yaml` 文件中：
+
+```yaml
+# .dsh/.credentials.yaml
+refs:
+    LONGCAT_PASSPORT_TOKEN_KEY: "你的passport_token_key值"
+```
+
+**注意：** 请妥善保管你的 Token，不要将其提交到公开仓库或分享给他人。
+
+---
+
 ## 功能特性
 
 ### 基础交互
