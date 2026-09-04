@@ -1,19 +1,34 @@
 {
-    "name":  "@BlueChonk/dsh-balance-phoebe",
+    "name": "@bluechonk/dsh-balance-phoebe",
     "version": "0.1.2",
-    "type":  "module",
-    "description":  "楦ｆ疆鑿叉瘮浣欓鎸備欢 - DSH 鎻掍欢",
-    "main":  "lib/index.js",
-    "files":  [
-                  "lib",
-                  "lib/widget.js",
-                  "assets",
-                  "cordis.patch.yml"
-              ],
-    "dsh":  {
-                "bundle":  {
-                               "patch":  "./cordis.patch.yml"
-                           }
-            },
-    "license":  "MIT"
+    "type": "module",
+    "description": "楦ｆ疆鑿叉瘮浣欓鎸備欢 - DSH 鎻掍欢",
+    "main": "lib/index.js",
+    "files": [
+        "lib",
+        "lib/widget.js",
+        "assets",
+        "cordis.patch.yml"
+    ],
+    "dsh": {
+        "bundle": {
+            "patch": "./cordis.patch.yml"
+        }
+    },
+    "license": "MIT",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlueChonk/dsh-balance-phoebe.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/BlueChonk/dsh-balance-phoebe/issues"
+    },
+    "homepage": "https://github.com/BlueChonk/dsh-balance-phoebe#readme"
 }
