@@ -24,11 +24,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BlueChonk/dsh-balance-phoebe.git"
+        "url": "git+https://github.com/bluechonk/dsh-balance-phoebe.git"
     },
     "keywords": [],
     "bugs": {
-        "url": "https://github.com/BlueChonk/dsh-balance-phoebe/issues"
+        "url": "https://github.com/bluechonk/dsh-balance-phoebe/issues"
     },
-    "homepage": "https://github.com/BlueChonk/dsh-balance-phoebe#readme"
+    "homepage": "https://github.com/bluechonk/dsh-balance-phoebe#readme"
 }

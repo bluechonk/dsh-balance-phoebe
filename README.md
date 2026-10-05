@@ -30,7 +30,7 @@
 
 ```powershell
 # 在仓库根目录执行
-dsh plugin --profile web add "github:BlueChonk/dsh-balance-phoebe"
+dsh plugin --profile web add "github:bluechonk/dsh-balance-phoebe"
 
 # 重启 dsh web
 dsh web
